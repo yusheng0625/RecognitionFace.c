@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ThankuDialog</class>
+ <widget class="QWidget" name="ThankuDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DetailsDialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>18</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>52</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>600</width>
+       <height>540</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>610</width>
+       <height>620</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(57, 91, 129);
+border-radius:8px;</string>
+     </property>
+     <widget class="QLabel" name="lblThanku">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>521</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+border-image:transparent;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>THANK YOU [FIRST NAME]!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelBottom">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>330</y>
+        <width>591</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;
+border-image:transparent;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Sorna has been notified &amp; will be with you shortly.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="printerForm" native="true">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>341</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/images/Images/print_bk.png);</string>
+      </property>
+      <widget class="QLabel" name="lbl_name">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>190</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/Images/blank.png);
+background:transparent;
+color: rgb(47, 47, 47);</string>
+       </property>
+       <property name="text">
+        <string>SORNA DEVADAS</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl_company">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>190</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/Images/blank.png);
+background:transparent;
+color: rgb(47, 47, 47);</string>
+       </property>
+       <property name="text">
+        <string>ANROS Group</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl_person_visiting">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>110</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/Images/blank.png);
+background:transparent;
+color: rgb(47, 47, 47);</string>
+       </property>
+       <property name="text">
+        <string>William Borg</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl_date">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/Images/blank.png);
+background:transparent;</string>
+       </property>
+       <property name="text">
+        <string>00/00/0000</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl_photo">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>60</y>
+         <width>116</width>
+         <height>116</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>116</width>
+         <height>116</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>116</width>
+         <height>116</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 0);
+border-radius: 4px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl_date_2">
+       <property name="geometry">
+        <rect>
+         <x>71</x>
+         <y>140</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>9</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/Images/blank.png);
+background:transparent;</string>
+       </property>
+       <property name="text">
+        <string>00-00pm</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl_type">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>10</y>
+         <width>190</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/images/Images/blank.png);
+background:transparent;
+color: rgb(47, 47, 47);</string>
+       </property>
+       <property name="text">
+        <string>SORNA DEVADAS</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl_client">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>190</y>
+         <width>301</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(30,30,30);</string>
+       </property>
+       <property name="text">
+        <string>[Comapny Name]</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="labelBottom1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>400</y>
+        <width>590</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(255,255,255);</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please take your sticker &amp;amp; place it in a visible location&lt;/p&gt;&lt;p&gt;and please remember to Sign Out when you leave.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>52</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>14</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

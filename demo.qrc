@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="calendar">Images/calendar.png</file>
+        <file alias="acer">Images/LogoAcer.png</file>
+        <file alias="detect">Images/32_detect.png</file>
+        <file alias="setting">Images/32_Setting.png</file>
+        <file alias="undetect">Images/32_Undetect.png</file>
+        <file alias="unsetting">Images/32_UnSetting.png</file>
+        <file alias="fail">Images/fail.png</file>
+        <file alias="success">Images/success.png</file>
+        <file alias="backward">Images/32_backward.png</file>
+        <file alias="downward">Images/32_down.png</file>
+        <file alias="downward_white">Images/32_down_ white.png</file>
+        <file alias="forward">Images/32_forward.png</file>
+        <file alias="forward_white">Images/32_forward_ white.png</file>
+        <file alias="go">Images/go.png</file>
+        <file alias="thanku">Images/ThankYou_Image.jpg</file>
+        <file alias="2setting">Images/2_Settings.png</file>
+        <file alias="sticker">Images/sticker.jpg</file>
+        <file alias="blank">Images/blank.png</file>
+        <file alias="login">Images/Login.jpg</file>
+        <file alias="group">Images/group.png</file>
+        <file alias="group-50">Images/group-50.png</file>
+        <file alias="confirm">Images/confirm.png</file>
+        <file alias="user">Images/users.png</file>
+        <file alias="camera_icon">Images/camera_icon.png</file>
+        <file alias="logo_acer_white">Images/LogoAcer_White.png</file>
+        <file alias="escape">Images/escapes.png</file>
+        <file alias="product_label">Images/label.png</file>
+        <file alias="update">Images/update.png</file>
+        <file>Images/mv_app_logo.png</file>
+        <file>Images/signin.png</file>
+        <file>Images/signout.png</file>
+        <file>Images/home.png</file>
+        <file>Images/print_bk.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="font1">Fonts/Cocomat Light.ttf</file>
+        <file alias="font2">Fonts/Gotham-Book.otf</file>
+        <file alias="font3">Fonts/GothamNarrow-Medium.otf</file>
+        <file alias="font4">Fonts/Montserrat-Light.ttf</file>
+        <file alias="font5">Fonts/Montserrat-Medium.ttf</file>
+        <file alias="font6">Fonts/Montserrat-Regular.ttf</file>
+        <file alias="font7">Fonts/AcerFoco_Rg.ttf</file>
+    </qresource>
+</RCC>
